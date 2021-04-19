@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Type B</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="170" height="170" rx="16"></rect>
+        <filter x="-10.3%" y="-7.4%" width="120.6%" height="120.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M85,100 C88.3137085,100 91,102.134007 91,106 L91,112 L79,112 L79,106 C79,102.134007 81.6862915,100 85,100 Z M98,67 L102,67 C102.552285,67 103,67.4477153 103,68 L103,87 C103,87.5522847 102.552285,88 102,88 L98,88 C97.4477153,88 97,87.5522847 97,87 L97,68 C97,67.4477153 97.4477153,67 98,67 Z M66,66 L70,66 C70.5522847,66 71,66.4477153 71,67 L71,88 C71,88.5522847 70.5522847,89 70,89 L66,89 C65.4477153,89 65,88.5522847 65,88 L65,67 C65,66.4477153 65.4477153,66 66,66 Z" id="path-3"></path>
+        <filter x="-10.5%" y="-8.7%" width="121.1%" height="117.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="3" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Type-B" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#50E6D2" x="0" y="0" width="400" height="400"></rect>
+        <g id="Wall-bit" transform="translate(210.000000, 20.000000)">
+            <g id="Plate">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Border" stroke="#E8EBF0" stroke-width="2" x="11" y="11" width="148" height="148" rx="6"></rect>
+            <path d="M57.0694588,119 L112.930541,119 C123.028672,110.695773 129,98.3387209 129,85 C129,71.6612791 123.028672,59.3042272 112.930541,51 L57.0694588,51 C46.9713278,59.3042272 41,71.6612791 41,85 C41,98.3387209 46.9713278,110.695773 57.0694588,119 Z" id="Combined-Shape" stroke="#E8EBF0" stroke-width="2"></path>
+            <g id="Holes">
+                <use fill="#2E3033" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+        <g id="Cable" transform="translate(24.000000, 175.000000)">
+            <path d="M90,225 C90,184.232422 112.388672,163.570313 152.96582,147.142578 C193.542969,130.714844 208,111.53125 208,82 C208,52.46875 186.1875,34.2949219 151.201172,34.2949219" stroke="#45484D" stroke-width="12"></path>
+            <circle id="Plasticky" fill="#2E3033" cx="146" cy="33" r="22"></circle>
+            <path d="M137.748007,63.2644922 C149.486816,59.1889648 158,48.4642016 158,35.1099375 C158,17.9283935 144.047852,6.72558594 126.856788,6 L73,4.01590245 L137.748007,63.2644922 Z" id="Plasticky" fill="#393B40"></path>
+            <path d="M49.7969979,0.910937865 L134.796998,12.3026904 C137.776037,12.7019432 140,15.2438465 140,18.2495211 L140,65.1422315 C140,67.7497568 138.336658,69.9687878 136.013139,70.7961589 C135.593627,70.9455407 131.924575,72.2769366 125.005981,74.7903463 L35.5366516,5.38731384 C42.3030782,2.36761693 46.790861,0.857768477 49,0.857768477 C49.2665521,0.857768477 49.5328079,0.875530957 49.7969979,0.910937865 Z" id="Plasticky" fill="#2E3033"></path>
+            <path d="M123.002884,75.1365509 C114.355469,74.59021 115.744995,83.527832 108.476487,85.9383904 C108.050352,86.0797158 101.754489,88.4178996 89.5888977,92.9529419 L110.87207,71.347168 L123.002884,75.1365509 Z" id="Plasticky" fill="#2E3033"></path>
+            <path d="M38.7969979,4.91093787 L123.796998,16.3026904 C126.776037,16.7019432 129,19.2438465 129,22.2495211 L129,69.1422315 C129,72.45594 126.313708,75.1422315 123,75.1422315 C122.733448,75.1422315 122.467192,75.124469 122.203002,75.0890621 L37.2030021,63.6973096 C34.2239625,63.2980568 32,60.7561535 32,57.7504789 L32,10.8577685 C32,7.54405998 34.6862915,4.85776848 38,4.85776848 C38.2665521,4.85776848 38.5328079,4.87553096 38.7969979,4.91093787 Z" id="Plasticky" fill="#45474D"></path>
+            <path d="M77.2436358,94.557342 C107.312217,92.2510264 96.8899408,67.9425265 120.905596,65.8709806 L120.197848,63.9477684 L35.2099731,70.3191239 L34.6476488,72.4833308 C57.3227253,71.1629146 47.1750549,96.8636577 77.2436358,94.557342 Z" id="Oval" fill="#45474D" transform="translate(77.776623, 79.325823) rotate(12.000000) translate(-77.776623, -79.325823) "></path>
+            <g id="Prongs" transform="translate(0.000000, 26.000000)">
+                <path d="M23.0556085,63.4745788 C22.0021315,62.5594585 21.2351993,61.2984363 20.948348,59.8221076 C20.2659979,56.3102775 22.5585747,52.9099953 26.0689616,52.2273646 L78.2882017,42.0928354 C81.7985886,41.4102048 85.2210729,43.7032179 85.8798236,47.2155542 C86.3061523,53.1168766 86.5478516,52.6540527 83.9565261,53.1744954 C58.193737,58.101903 38.8716451,61.7974587 25.9902506,64.2611625 L23.0556085,63.4745788 Z" id="Prong" fill="#E6E6E6"></path>
+                <g id="Prong">
+                    <polygon fill="#EDEEF0" points="0 12 57 0 63 1 63 1.5 6 13.5"></polygon>
+                    <polygon fill="#DEDFE0" points="6 13 63 1 63 21 6 33"></polygon>
+                    <polygon fill="#FFFFFF" points="0 12 6 13 6 33 0 32"></polygon>
+                </g>
+                <g id="Prong" transform="translate(47.000000, 7.000000)">
+                    <polygon fill="#EDEEF0" points="0 12 57 0 63 1 63 1.5 6 13.5"></polygon>
+                    <polygon fill="#DEDFE0" points="6 13 63 1 63 21 6 33"></polygon>
+                    <polygon fill="#FFFFFF" points="0 12 6 13 6 33 0 32"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
